@@ -17,6 +17,7 @@ This repository creates a Docker-Image with OpenCV 4.1 installed in a Python 3.7
 | Software | Version | Comment |
 | --------- | ------- | ------- |
 | OpenCV | 4.1 |  |
+| Python | 3.7 |  |
 | Raspberry | B3 - armv7 |  |
 
 ## Changelog - lastest version
