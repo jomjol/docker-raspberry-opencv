@@ -22,6 +22,9 @@ RUN apt-get -y install libqtgui4 libqt4-test
 RUN apt-get -y install python3-numpy
 RUN apt-get -y install python-opencv
 
+COPY wheels ./wheels
+RUN pip3 install --no-cache-dir ./wheels_raspi/opencv_contrib_python-4.1.1.26-cp37-cp37m-linux_armv7l.whl
+
 RUN [ "cross-build-end" ]
 
 ENV LD_PRELOAD=$LD_PRELOAD:/usr/lib/arm-linux-gnueabihf/libatomic.so.1.2.0
