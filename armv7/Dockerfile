@@ -23,7 +23,7 @@ RUN apt-get -y install python3-numpy
 RUN apt-get -y install python-opencv
 
 COPY wheels ./wheels
-RUN pip3 install --no-cache-dir ./wheels_raspi/opencv_contrib_python-4.1.1.26-cp37-cp37m-linux_armv7l.whl
+RUN pip3 install --no-cache-dir ./wheels/opencv_contrib_python-4.1.1.26-cp37-cp37m-linux_armv7l.whl
 
 RUN [ "cross-build-end" ]
 
