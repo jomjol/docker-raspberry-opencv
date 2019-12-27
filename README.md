@@ -9,7 +9,7 @@ This repository creates a Docker-Image with OpenCV 4.1 installed in a Python 3.7
 
 | Label | 	Content  |
 | -------------- | -------------|
-| latest | identical to v1.0.0 (Status 2019-12-27) | 
+| latest | Added manual installation of opencv via pip3 and wheel file (Status 2019-12-27) | 
 | v1.0.0 | Inital Version - Tested and Running | 
 
 
