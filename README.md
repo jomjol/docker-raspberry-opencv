@@ -1,3 +1,5 @@
+<span style="color: red;">This code is depreciated and will not be maintained any more!</span> 
+
 # docker-raspberrypi3-opencv
  OpenCV 4.1 on Raspberry B3
  
